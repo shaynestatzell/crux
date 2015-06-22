@@ -1,0 +1,28 @@
+/* ==== Widths ==== */
+$container-width: 960px;
+$container-width-medium: 90%;
+$container-width-small: 90%;
+
+
+/* ==== Responsive Helpers ==== */
+$retina: "(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)";
+
+$small-screen: 450px;
+$medium-screen: 768px;
+$large-screen: 1024px;
+$xlarge-screen: 1200px;
+$super-screen: 1500px;
+
+$screen: "only screen";
+
+$small: "only screen and (min-width: #{$small-screen})";
+$medium: "only screen and (min-width: #{$medium-screen})";
+$large: "only screen and (min-width: #{$large-screen})";
+$xlarge: "only screen and (min-width: #{$xlarge-screen})";
+$super: "only screen and (min-width: #{$super-screen})";
+
+$landscape: "only screen and (orientation: landscape)";
+$portrait: "only screen and (orientation: portrait)";
+
+$small-down: "only screen and (max-width: #{$medium-screen})";
+$medium-down: "only screen and (max-width: #{$large-screen})";

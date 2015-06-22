@@ -1,0 +1,32 @@
+/* ==== Core Dependencies ==== */
+@import "semantic-ui";
+
+@import "compass/css3";
+@import "compass/utilities";
+
+@import 'core/_vars';
+@import 'core/_normalize';
+@import 'core/_fonts';
+
+/* ==== 3rd Party Libraries ==== */
+// @import 'libs/frontend/{file}';
+
+/* ==== Structure ==== */
+@import 'structure/header';
+    @import 'structure/medium/header';
+    @import 'structure/small/header';
+
+@import 'structure/footer';
+    @import 'structure/medium/footer';
+    @import 'structure/small/footer';
+
+
+
+/* ==== CRUX Site Styles ==== */
+@import 'page/global';
+    @import 'page/medium/global';
+    @import 'page/small/global';
+
+@import 'page/home';
+    @import 'page/medium/home';
+    @import 'page/small/home';
